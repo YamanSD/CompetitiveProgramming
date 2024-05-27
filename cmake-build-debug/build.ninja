@@ -54,288 +54,222 @@ build CMakeFiles/Competitive.dir/main.cpp.obj: CXX_COMPILER__Competitive_unscann
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/DistinctNumbers.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/DistinctNumbers.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\DistinctNumbers.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Apartments.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/Apartments.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\Apartments.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FerrisWheel.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/FerrisWheel.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\FerrisWheel.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ConcertTickets.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/ConcertTickets.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\ConcertTickets.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RestaurantCustomers.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/RestaurantCustomers.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\RestaurantCustomers.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestival.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/MovieFestival.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\MovieFestival.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfTwoValues.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SumOfTwoValues.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SumOfTwoValues.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySum.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/MaximumSubarraySum.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\MaximumSubarraySum.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/StickLengths.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/StickLengths.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\StickLengths.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MissingCoinSum.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/MissingCoinSum.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\MissingCoinSum.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbers.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/CollectingNumbers.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\CollectingNumbers.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbersII.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/CollectingNumbersII.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\CollectingNumbersII.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Playlist.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/Playlist.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\Playlist.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Towers.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/Towers.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\Towers.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TrafficLights.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/TrafficLights.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\TrafficLights.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemI.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/JosephusProblemI.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\JosephusProblemI.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemII.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/JosephusProblemII.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\JosephusProblemII.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCheck.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/NestedRangesCheck.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\NestedRangesCheck.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCount.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/NestedRangesCount.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\NestedRangesCount.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RoomAllocation.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/RoomAllocation.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\RoomAllocation.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FactoryMachines.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/FactoryMachines.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\FactoryMachines.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TasksAndDeadlines.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/TasksAndDeadlines.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\TasksAndDeadlines.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ReadingBooks.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/ReadingBooks.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\ReadingBooks.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfThreeValues.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SumOfThreeValues.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SumOfThreeValues.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfFourValues.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SumOfFourValues.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SumOfFourValues.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NearestSmallerValues.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/NearestSmallerValues.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\NearestSmallerValues.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsI.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SubarraySumsI.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SubarraySumsI.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsII.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SubarraySumsII.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SubarraySumsII.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDivisibility.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SubarrayDivisibility.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SubarrayDivisibility.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDistinctValues.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SubarrayDistinctValues.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SubarrayDistinctValues.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ArrayDivision.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/ArrayDivision.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\ArrayDivision.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowMedian.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SlidingWindowMedian.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SlidingWindowMedian.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowCost.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/SlidingWindowCost.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\SlidingWindowCost.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestivalII.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/MovieFestivalII.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\MovieFestivalII.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
 
 build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySumII.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CSES-Solved/Sorting$ and$ Searching/MaximumSubarraySumII.cpp || cmake_object_order_depends_target_Competitive
   DEP_FILE = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching\MaximumSubarraySumII.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CSES-Solved\Sorting_and_Searching
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
-  TARGET_PDB = Competitive.pdb
+
+build CMakeFiles/Competitive.dir/CodeForces/800/Test.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/Test.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\Test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
 
 
 # =============================================================================
@@ -345,16 +279,15 @@ build CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarr
 #############################################
 # Link the executable Competitive.exe
 
-build Competitive.exe: CXX_EXECUTABLE_LINKER__Competitive_Debug CMakeFiles/Competitive.dir/main.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/DistinctNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Apartments.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FerrisWheel.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ConcertTickets.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RestaurantCustomers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestival.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfTwoValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/StickLengths.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MissingCoinSum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbersII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Playlist.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Towers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TrafficLights.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCheck.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCount.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RoomAllocation.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FactoryMachines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TasksAndDeadlines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ReadingBooks.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfThreeValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfFourValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NearestSmallerValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDivisibility.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDistinctValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ArrayDivision.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowMedian.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowCost.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestivalII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySumII.cpp.obj
+build Competitive.exe: CXX_EXECUTABLE_LINKER__Competitive_Debug CMakeFiles/Competitive.dir/main.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/DistinctNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Apartments.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FerrisWheel.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ConcertTickets.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RestaurantCustomers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestival.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfTwoValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/StickLengths.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MissingCoinSum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbersII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Playlist.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Towers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TrafficLights.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCheck.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCount.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RoomAllocation.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FactoryMachines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TasksAndDeadlines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ReadingBooks.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfThreeValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfFourValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NearestSmallerValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDivisibility.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDistinctValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ArrayDivision.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowMedian.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowCost.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestivalII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySumII.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/Test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Competitive.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Competitive.dir\
   TARGET_FILE = Competitive.exe
   TARGET_IMPLIB = libCompetitive.dll.a
-  TARGET_PDB = Competitive.pdb
+  TARGET_PDB = Competitive.exe.dbg
 
 
 #############################################
@@ -401,14 +334,14 @@ build all: phony Competitive.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/demoh/CLionProjects/Competitive/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/demoh/CLionProjects/Competitive/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/demoh/CLionProjects/Competitive/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/demoh/CLionProjects/Competitive/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

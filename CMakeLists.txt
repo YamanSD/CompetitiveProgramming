@@ -39,4 +39,5 @@ add_executable(Competitive main.cpp
         "CSES-Solved/Sorting and Searching/SlidingWindowCost.cpp"
         "CSES-Solved/Sorting and Searching/MovieFestivalII.cpp"
         "CSES-Solved/Sorting and Searching/MaximumSubarraySumII.cpp"
+        CodeForces/800/Test.cpp
 )
