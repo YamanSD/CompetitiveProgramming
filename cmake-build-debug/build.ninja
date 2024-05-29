@@ -271,6 +271,66 @@ build CMakeFiles/Competitive.dir/CodeForces/800/Test.cpp.obj: CXX_COMPILER__Comp
   OBJECT_DIR = CMakeFiles\Competitive.dir
   OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
 
+build CMakeFiles/Competitive.dir/CodeForces/800/SymmetricEncoding.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/SymmetricEncoding.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\SymmetricEncoding.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/PhoneDesktop.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/PhoneDesktop.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\PhoneDesktop.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/ContestProposal.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/ContestProposal.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\ContestProposal.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/DifferentString.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/DifferentString.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\DifferentString.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/MyFirstSortingProblem.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/MyFirstSortingProblem.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\MyFirstSortingProblem.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/TwoFriends.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/TwoFriends.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\TwoFriends.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/Prefiquence.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/Prefiquence.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\Prefiquence.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/Maximize.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/Maximize.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\Maximize.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/CardExchange.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/CardExchange.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\CardExchange.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
+build CMakeFiles/Competitive.dir/CodeForces/800/Stickogon.cpp.obj: CXX_COMPILER__Competitive_unscanned_Debug C$:/Users/demoh/CLionProjects/Competitive/CodeForces/800/Stickogon.cpp || cmake_object_order_depends_target_Competitive
+  DEP_FILE = CMakeFiles\Competitive.dir\CodeForces\800\Stickogon.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Competitive.dir
+  OBJECT_FILE_DIR = CMakeFiles\Competitive.dir\CodeForces\800
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Competitive
@@ -279,7 +339,7 @@ build CMakeFiles/Competitive.dir/CodeForces/800/Test.cpp.obj: CXX_COMPILER__Comp
 #############################################
 # Link the executable Competitive.exe
 
-build Competitive.exe: CXX_EXECUTABLE_LINKER__Competitive_Debug CMakeFiles/Competitive.dir/main.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/DistinctNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Apartments.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FerrisWheel.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ConcertTickets.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RestaurantCustomers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestival.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfTwoValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/StickLengths.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MissingCoinSum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbersII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Playlist.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Towers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TrafficLights.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCheck.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCount.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RoomAllocation.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FactoryMachines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TasksAndDeadlines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ReadingBooks.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfThreeValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfFourValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NearestSmallerValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDivisibility.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDistinctValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ArrayDivision.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowMedian.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowCost.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestivalII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySumII.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/Test.cpp.obj
+build Competitive.exe: CXX_EXECUTABLE_LINKER__Competitive_Debug CMakeFiles/Competitive.dir/main.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/DistinctNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Apartments.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FerrisWheel.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ConcertTickets.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RestaurantCustomers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestival.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfTwoValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/StickLengths.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MissingCoinSum.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/CollectingNumbersII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Playlist.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/Towers.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TrafficLights.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/JosephusProblemII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCheck.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NestedRangesCount.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/RoomAllocation.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/FactoryMachines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/TasksAndDeadlines.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ReadingBooks.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfThreeValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SumOfFourValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/NearestSmallerValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsI.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarraySumsII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDivisibility.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SubarrayDistinctValues.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/ArrayDivision.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowMedian.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/SlidingWindowCost.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MovieFestivalII.cpp.obj CMakeFiles/Competitive.dir/CSES-Solved/Sorting_and_Searching/MaximumSubarraySumII.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/Test.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/SymmetricEncoding.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/PhoneDesktop.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/ContestProposal.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/DifferentString.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/MyFirstSortingProblem.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/TwoFriends.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/Prefiquence.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/Maximize.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/CardExchange.cpp.obj CMakeFiles/Competitive.dir/CodeForces/800/Stickogon.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Competitive.dir
