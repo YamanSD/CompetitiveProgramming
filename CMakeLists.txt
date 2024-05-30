@@ -50,4 +50,5 @@ add_executable(Competitive main.cpp
         CodeForces/800/Maximize.cpp
         CodeForces/800/CardExchange.cpp
         CodeForces/800/Stickogon.cpp
+        CodeForces/900/ChessForThree.cpp
 )
