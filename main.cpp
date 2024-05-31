@@ -1,4 +1,4 @@
-#include "./CodeForces/1000/EasyAsABC.cpp"
+#include "./CodeForces/1100/BinaryCut.cpp"
 
 int32_t main() {
     solve();
