@@ -1,4 +1,4 @@
-#include "./CodeForces/1200/Equalize.cpp"
+#include "./CodeForces/800/BeautifulMatrix.cpp"
 
 int32_t main() {
     solve();
