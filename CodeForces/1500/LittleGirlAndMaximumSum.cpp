@@ -1,6 +1,6 @@
 /**
- * RestaurantCustomers
- * 12:59 PM 6/12/2024
+ * LittleGirlAndMaximumSum
+ * 1:57 PM 6/12/2024
  */
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
@@ -20,27 +20,27 @@ using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statist
 
 void solve() {
     fast
-    int n, res = 0, tmp = 0, a, b;
-    cin >> n;
-    vector<pair<int, int>> v;
-    for (int i = 0; i < n; i++) {
-        cin >> a >> b;
-        v.emplace_back(a, 1);
-        v.emplace_back(b, -1);
+    int n, q, l, r;
+    cin >> n >> q;
+    int a[n], c[n + 1];
+    for (int& i: a) cin >> i;
+    memset(c, 0, sizeof(int) * (n + 1));
+    while (q--) {
+        cin >> l >> r;
+        c[l - 1]++;
+        c[r]--;
     }
 
-    sort(v.begin(), v.end(), [](auto& v0, auto& v1) {
-        return v0.first == v1.first ? v0.second < v1.second : v0.first < v1.first;
-    });
+    for (int i = 1; i < n; i++) {
+        c[i] += c[i - 1];
+    }
 
-    for (auto& p: v) {
-        tmp += p.second;
-        res = max(res, tmp);
+    sort(a, a + n);
+    sort(c, c + n);
+    int res = 0;
+    for (int i = 0; i < n; i++) {
+        res += a[i] * c[i];
     }
 
     cout << res << nl;
 }
-
-//int32_t main() {
-//    solve();
-//}
