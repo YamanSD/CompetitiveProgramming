@@ -21,3 +21,7 @@ using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statist
 void solve() {
     fast
 }
+
+int32_t main() {
+    solve();
+}
