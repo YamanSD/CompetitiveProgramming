@@ -13,6 +13,8 @@ using namespace __gnu_pbds;
 #[[#define]]# double long double
 #[[#define]]# fast ios_base::sync_with_stdio(false);cin.tie(NULL);
 #[[#define]]# nl '\n'
+#[[#define]]# F first
+#[[#define]]# S second
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
