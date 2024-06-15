@@ -1,6 +1,7 @@
 void solve();
 
-#include "./CodeForces/900/Twins.cpp"
+#include <cstdint>
+#include "./CSES/DynamicProgramming/DiceCombinations.cpp"
 
 int32_t main() {
     solve();
