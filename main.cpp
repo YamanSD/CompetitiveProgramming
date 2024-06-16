@@ -1,8 +1,6 @@
-void solve();
-
 #include <cstdint>
-#include "./CSES/DynamicProgramming/DiceCombinations.cpp"
 
-int32_t main() {
-    solve();
-}
+void solve();
+int32_t main();
+
+#include "./CodeForces/1200/TwoTeamsComposing.cpp"

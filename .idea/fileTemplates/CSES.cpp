@@ -24,4 +24,4 @@ void solve() {
     fast
 }
 
-//int32_t main() {solve();}
+int32_t main() {solve();}
