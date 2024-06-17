@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CSES/DynamicProgramming/EditDistance.cpp"
+#include "./CSES/DynamicProgramming/RectangleCutting.cpp"
