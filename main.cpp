@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CSES/DynamicProgramming/CountingTowers.cpp"
+#include "./CodeForces/900/NewYearsNumber.cpp"
