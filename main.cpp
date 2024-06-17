@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CSES/DynamicProgramming/ArrayDescription.cpp"
+#include "./CodeForces/1500/Boredom.cpp"
