@@ -30,12 +30,12 @@ void solve() {
     for (int& i: s) cin >> i;
     vector<vector<int>> a(n + 1, vector<int>(x + 1, 0));
 
-    for (int i = 0; i < n; i++) {
+    for (int b = 0; b < n; b++) {
         for (int p = 0; p <= x; p++) {
-            a[i + 1][p] = a[i][p];
+            a[b + 1][p] = a[b][p];
 
-            if (p >= h[i]) {
-                a[i + 1][p] = max(a[i + 1][p], s[i] + a[i][max(p - h[i], 0)]);
+            if (p >= h[b]) {
+                a[b + 1][p] = max(a[b + 1][p], s[b] + a[b][p - h[b]]);
             }
         }
     }
