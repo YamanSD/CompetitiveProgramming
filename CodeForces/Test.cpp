@@ -117,3 +117,17 @@ void solve() {
 //    return res;
 //}
 
+/**
+ * int modBinExp(int b, int e) {
+    if (e == 0) {
+        return 1;
+    }
+
+    int res = modBinExp(b, e / 2);
+    if (e % 2) {
+        return (((res * res) % MOD) * b) % MOD;
+    }
+
+    return (res * res) % MOD;
+}
+ */
