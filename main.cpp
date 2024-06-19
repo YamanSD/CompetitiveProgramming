@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CSES/DynamicProgramming/CountingNumbers.cpp"
+#include "./CodeForces/1200/FlippingGame.cpp"
