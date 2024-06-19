@@ -15,8 +15,8 @@ using namespace __gnu_pbds;
 #[[#define]]# nl '\n'
 #[[#define]]# F first
 #[[#define]]# S second
-#[[#define]]# INF ((int)1e18)
-#[[#define]]# MOD ((int)1e9 + 7)
+#[[#define]]# INF 1000000000000000000ll
+#[[#define]]# MOD 1000000007ll
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
