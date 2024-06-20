@@ -131,3 +131,117 @@ void solve() {
     return (res * res) % MOD;
 }
  */
+
+//class FenwickTree {
+//private:
+//    size_t n;
+//    int *t;
+//
+//    void construct(const vector<int>& a) {
+//        for (int i = 0; i < size(); i++) {
+//            add(i, a[i]);
+//        }
+//    }
+//public:
+//    [[nodiscard]] size_t size() const {
+//        return n;
+//    }
+//
+//    [[nodiscard]] int* begin() const {
+//        return t;
+//    }
+//
+//    [[nodiscard]] int* end() const {
+//        return t + size();
+//    }
+//
+//    [[nodiscard]] int sum(int r) const {
+//        int ret = 0;
+//        for (; r >= 0; r = (r & (r + 1)) - 1) {
+//            ret += t[r];
+//        }
+//        return ret;
+//    }
+//
+//    [[nodiscard]] int sum(int l, int r) const {
+//        return sum(r) - sum(l - 1);
+//    }
+//
+//    void add(int idx, int delta) {
+//        for (; idx < n; idx = idx | (idx + 1)) {
+//            t[idx] += delta;
+//        }
+//    }
+//
+//    explicit FenwickTree(const vector<int>& a): n{a.size()} {
+//        t = new int[size()];
+//        memset(t, 0, sizeof(int) * size());
+//        construct(a);
+//    }
+//
+//    ~FenwickTree() {
+//        delete t;
+//    }
+//};
+
+/**
+ * Separator
+ */
+
+//class MinFenwickTree {
+//private:
+//    size_t n;
+//    vector<int> t;
+//    const int INF = (int)1e9;
+//
+//    void construct(const vector<int>& a) {
+//        for (int i = 0; i < size(); i++) {
+//            update(i, a[i]);
+//        }
+//    }
+//public:
+//    [[nodiscard]] size_t size() const {
+//        return n;
+//    }
+//
+//    void update(int idx, int val) {
+//        for (; idx < size(); idx = idx | (idx + 1)) {
+//            t[idx] = min(t[idx], val);
+//        }
+//    }
+//
+//    int get(int r) {
+//        int ret = INF;
+//        for (; r >= 0; r = (r & (r + 1)) - 1)
+//            ret = min(ret, t[r]);
+//        return ret;
+//    }
+//
+//    explicit MinFenwickTree(const vector<int>& a): n{a.size()} {
+//        t = vector<int>(size(), INF);
+//        construct(a);
+//    }
+//};
+
+/**
+ * struct FenwickTree2D {
+    vector<vector<int>> bit;
+    int n, m;
+
+    // init(...) { ... }
+
+    int sum(int x, int y) {
+        int ret = 0;
+        for (int i = x; i >= 0; i = (i & (i + 1)) - 1)
+            for (int j = y; j >= 0; j = (j & (j + 1)) - 1)
+                ret += bit[i][j];
+        return ret;
+    }
+
+    void add(int x, int y, int delta) {
+        for (int i = x; i < n; i = i | (i + 1))
+            for (int j = y; j < m; j = j | (j + 1))
+                bit[i][j] += delta;
+    }
+};
+ */

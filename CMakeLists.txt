@@ -39,7 +39,7 @@ add_executable(Competitive main.cpp
         "CSES-Solved/Sorting and Searching/SlidingWindowCost.cpp"
         "CSES-Solved/Sorting and Searching/MovieFestivalII.cpp"
         "CSES-Solved/Sorting and Searching/MaximumSubarraySumII.cpp"
-        CodeForces/Test.cpp
+        CodeForces/Snippets.cpp
         CodeForces/800/SymmetricEncoding.cpp
         CodeForces/800/PhoneDesktop.cpp
         CodeForces/800/ContestProposal.cpp
