@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CodeForces/1200/FlippingGame.cpp"
+#include "./CodeForces/1100/SerejaAndSuffixes.cpp"
