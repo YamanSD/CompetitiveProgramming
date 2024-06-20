@@ -132,6 +132,9 @@ void solve() {
 }
  */
 
+// Note that Finwick tree can also support range updates, not implemented
+// Check: https://cp-algorithms.com/data_structures/fenwick.html
+
 //class FenwickTree {
 //private:
 //    size_t n;
