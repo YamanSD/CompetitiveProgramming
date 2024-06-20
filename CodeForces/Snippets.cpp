@@ -248,3 +248,66 @@ void solve() {
     }
 };
  */
+
+
+// Segmet tree for sums.
+// For more information https://cp-algorithms.com/data_structures/segment_tree.html
+
+//class SegmentTree {
+//private:
+//    int *t;
+//    size_t n;
+//
+//    void construct(const vector<int>& a, int v = 1, int l = 0, int r = -1) {
+//        if (r == -1) {
+//            r = size() - 1;
+//        }
+//
+//        if (l == r) {
+//            t[v] = a[l];
+//        } else {
+//            int m = (l + r) / 2;
+//            construct(a, 2 * v, l, m);
+//            construct(a, 2 * v + 1, m + 1, r);
+//            t[v] = t[2 * v] + t[2 * v + 1];
+//        }
+//    }
+//public:
+//    size_t size() const {
+//        return n;
+//    }
+//
+//    int sum(int v, int tl, int tr, int l, int r) {
+//        if (l > r)
+//            return 0;
+//        if (l == tl && r == tr) {
+//            return t[v];
+//        }
+//        int tm = (tl + tr) / 2;
+//        return sum(v*2, tl, tm, l, min(r, tm))
+//               + sum(v*2+1, tm+1, tr, max(l, tm+1), r);
+//    }
+//
+//    void update(int v, int tl, int tr, int pos, int new_val) {
+//        if (tl == tr) {
+//            t[v] = new_val;
+//        } else {
+//            int tm = (tl + tr) / 2;
+//            if (pos <= tm)
+//                update(v*2, tl, tm, pos, new_val);
+//            else
+//                update(v*2+1, tm+1, tr, pos, new_val);
+//            t[v] = t[v*2] + t[v*2+1];
+//        }
+//    }
+//
+//    SegmentTree(const vector<int>& a): n{a.size()} {
+//        int t = new int[4 * size()];
+//        memset(t, 0, 4 * sizeof(int) * size());
+//        construct(a);
+//    }
+//
+//    ~SegmentTree() {
+//        delete t;
+//    }
+//};
