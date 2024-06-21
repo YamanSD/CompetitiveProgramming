@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CodeForces/1100/SerejaAndSuffixes.cpp"
+#include "./CSES/RangeQueries/StaticRangeSumQueries.cpp"
