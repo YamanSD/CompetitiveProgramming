@@ -1,3 +1,3 @@
-C:/Users/demoh/CLionProjects/Competitive/cmake-build-debug/CMakeFiles/Competitive.dir
-C:/Users/demoh/CLionProjects/Competitive/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/demoh/CLionProjects/Competitive/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/CMakeFiles/Competitive.dir
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

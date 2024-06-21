@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Competitive"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Competitive">
+				<Option output="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Competitive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/../../../../../../include/c++/14"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/../../../../../../include/c++/14/x86_64-apple-darwin23"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/../../../../../../include/c++/14/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/include"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Competitive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Competitive/fast">
+				<Option output="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Competitive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/../../../../../../include/c++/14"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/../../../../../../include/c++/14/x86_64-apple-darwin23"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/../../../../../../include/c++/14/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/include"/>
+					<Add directory="/usr/local/Cellar/gcc/14.1.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin23/14/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Competitive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/main.cpp">
+			<Option target="Competitive"/>
+		</Unit>
+		<Unit filename="/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

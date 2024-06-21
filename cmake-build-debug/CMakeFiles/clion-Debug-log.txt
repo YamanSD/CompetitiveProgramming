@@ -1,4 +1,13 @@
-"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\demoh\CLionProjects\Competitive -B C:\Users\demoh\CLionProjects\Competitive\cmake-build-debug
--- Configuring done (1.2s)
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -G "CodeBlocks - Unix Makefiles" -S /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming -B /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/demoh/CLionProjects/Competitive/cmake-build-debug
+-- Build files have been written to: /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug

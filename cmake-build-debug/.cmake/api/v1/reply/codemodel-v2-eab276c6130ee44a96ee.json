@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.27"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Competitive::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Competitive-Debug-8c594a44bb2b8168d748.json",
+					"jsonFile" : "target-Competitive-Debug-ded87d74adc77e058ce1.json",
 					"name" : "Competitive",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/demoh/CLionProjects/Competitive/cmake-build-debug",
-		"source" : "C:/Users/demoh/CLionProjects/Competitive"
+		"build" : "/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug",
+		"source" : "/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming"
 	},
 	"version" : 
 	{
