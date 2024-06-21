@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CSES/RangeQueries/HotelQueries.cpp"
+#include "./CodeForces/1200/AlternatingSubsequence.cpp"
