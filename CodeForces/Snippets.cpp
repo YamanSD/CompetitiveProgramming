@@ -311,3 +311,8 @@ void solve() {
 //        delete t;
 //    }
 //};
+
+/**
+ * This website for data structures
+ * https://atcoder.github.io/ac-library/production/document_en/lazysegtree.html
+ */

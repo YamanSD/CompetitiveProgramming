@@ -22,47 +22,20 @@ template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
-class MinFenwickTree {
-private:
-    size_t n;
-    vector<int> t;
-
-    void construct(const vector<int>& a) {
-        for (int i = 0; i < size(); i++) {
-            update(i, a[i]);
-        }
-    }
-public:
-    [[nodiscard]] size_t size() const {
-        return n;
-    }
-
-    void update(int idx, int val) {
-        for (; idx < size(); idx = idx | (idx + 1)) {
-            t[idx] = min(t[idx], val);
-        }
-    }
-
-    int get(int r) {
-        int ret = INF;
-        for (; r >= 0; r = (r & (r + 1)) - 1)
-            ret = min(ret, t[r]);
-        return ret;
-    }
-
-    explicit MinFenwickTree(const vector<int>& a): n{a.size()} {
-        t = vector<int>(size(), INF);
-        construct(a);
-    }
-};
-
 void solve() {
     int n, q;
     cin >> n >> q;
     int a[n], sm[n + 1];
     sm[0] = 0;
     for (int& i: a) cin >> i;
-    Fe
+    for (int i = 1; i <= n; i++) {
+        sm[i] = sm[i - 1] + a[i - 1];
+    }
+    int s, e;
+    while (q--) {
+        cin >> s >> e;
+        cout << sm[e] - sm[s - 1] << nl;
+    }
 }
 
 int32_t main() {

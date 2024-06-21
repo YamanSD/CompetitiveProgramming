@@ -121,7 +121,7 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pthread.h \
-  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CSES/RangeQueries/StaticRangeSumQueries.cpp \
+  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CSES/RangeQueries/HotelQueries.cpp \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/any \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/array \
@@ -1077,6 +1077,8 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stl_queue.h:
 
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CSES/RangeQueries/HotelQueries.cpp:
+
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stl_list.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h:
@@ -1362,8 +1364,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/localefwd.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/array:
-
-/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CSES/RangeQueries/StaticRangeSumQueries.cpp:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/any:
 
