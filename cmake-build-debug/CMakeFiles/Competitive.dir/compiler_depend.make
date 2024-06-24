@@ -121,7 +121,7 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pthread.h \
-  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CSES/RangeQueries/HotelQueries.cpp \
+  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Round953/D.cpp \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/any \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/array \
@@ -1077,8 +1077,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stl_queue.h:
 
-/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CSES/RangeQueries/HotelQueries.cpp:
-
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stl_list.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h:
@@ -1597,6 +1595,10 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/iterators_fn_imps.hpp:
+
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Round953/D.cpp:
+
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/string_view:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/list_update_map_/lu_map_.hpp:
@@ -1612,8 +1614,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_types.h:
-
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/iterators_fn_imps.hpp:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ctgmath:
 

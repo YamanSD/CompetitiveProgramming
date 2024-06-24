@@ -183,7 +183,7 @@ void solve() {
 //    }
 //
 //    ~FenwickTree() {
-//        delete t;
+//        delete[] t;
 //    }
 //};
 
@@ -308,7 +308,7 @@ void solve() {
 //    }
 //
 //    ~SegmentTree() {
-//        delete t;
+//        delete[] t;
 //    }
 //};
 
