@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -G "CodeBlocks - Unix Makefiles" -S /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming -B /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -G "CodeBlocks - Unix Makefiles" -DPython_EXECUTABLE=/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/venv/bin/python -DPython3_EXECUTABLE=/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/venv/bin/python -S /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming -B /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -28,6 +28,13 @@ CMake Deprecation Warning:
 -- Check for working CXX compiler: /usr/local/bin/g++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (2.5s)
+-- Configuring done (6.9s)
 -- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python3_EXECUTABLE
+    Python_EXECUTABLE
+
+
 -- Build files have been written to: /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug

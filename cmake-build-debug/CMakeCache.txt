@@ -252,6 +252,12 @@ Competitive_SOURCE_DIR:STATIC=/Users/yamansirajaldeen/Documents/GitHub/Competiti
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/venv/bin/python
+
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/venv/bin/python
+
 
 ########################
 # INTERNAL cache entries
