@@ -3,4 +3,5 @@ project(Competitive)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Competitive main.cpp)
+add_executable(Competitive main.cpp
+)

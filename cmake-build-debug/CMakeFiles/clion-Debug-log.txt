@@ -8,33 +8,6 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- The C compiler identification is GNU 14.1.0
--- The CXX compiler identification is GNU 14.1.0
--- Checking whether C compiler has -isysroot
--- Checking whether C compiler has -isysroot - yes
--- Checking whether C compiler supports OSX deployment target flag
--- Checking whether C compiler supports OSX deployment target flag - yes
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/local/bin/gcc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Checking whether CXX compiler has -isysroot
--- Checking whether CXX compiler has -isysroot - yes
--- Checking whether CXX compiler supports OSX deployment target flag
--- Checking whether CXX compiler supports OSX deployment target flag - yes
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/local/bin/g++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (6.9s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    Python3_EXECUTABLE
-    Python_EXECUTABLE
-
-
 -- Build files have been written to: /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/cmake-build-debug
