@@ -32,7 +32,7 @@ CMakeFiles/Competitive.dir/main.cpp.o: \
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
- /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/./CSES/Geometry/MinimumEuclideanDistance.cpp \
+ /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/./CodeForces/1000/PetrAndBook.cpp \
  /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/x86_64-apple-darwin23/bits/stdc++.h \
  /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/cassert \
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
