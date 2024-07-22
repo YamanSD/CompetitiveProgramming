@@ -1,8 +1,8 @@
 /**
- * 15:18:55 7/8/24
- * BoatsCompetition
+ * 14:08:17 7/15/24
+ * NewTheatreSquare
  */
-// ./CodeForces/1200/BoatsCompetition.cpp
+// ./CodeForces/1000/NewTheatreSquare.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -21,6 +21,9 @@ using namespace __gnu_pbds;
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
 #define pii pair<int, int>
+#define P complex<int>
+#define X real()
+#define Y imag()
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
@@ -29,33 +32,29 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a(n);
-        for (int& i: a) cin >> i;
-        sort(a.begin(), a.end());
-        const int mins = 2, maxs = 100;
-        int res = 0;
-        for (int s = mins; s <= maxs; s++) {
-            int tmp = 0;
-            multiset<int> p;
-
-            for (int i = 0; i < n; i++) {
-                auto r = p.find(s - a[i]);
-                bool in = false;
-                if (r != p.end()) {
-                    p.erase(r);
-                    in = true;
-                    tmp++;
-                }
-
-                if (not in)
-                    p.insert(a[i]);
+        int n, m, x, y;
+        cin >> n >> m >> x >> y;
+        char g[n][m];
+        for (int r = 0; r < n; r++) {
+            for (int c = 0; c < m; c++) {
+                cin >> g[r][c];
             }
-
-            res = max(res, tmp);
         }
 
+        int res = 0;
+        for (int r = 0; r < n; r++) {
+            for (int c = 0; c < m; c++) {
+                if (g[r][c] == '.') {
+                    if (c < m - 1 and 2 * x > y and g[r][c + 1] == '.') {
+                        res += y;
+                        g[r][c] = g[r][c + 1] = '*';
+                    } else {
+                        res += x;
+                        g[r][c] = '*';
+                    }
+                }
+            }
+        }
         cout << res << nl;
     }
 }

@@ -1,8 +1,8 @@
 /**
- * 15:18:55 7/8/24
- * BoatsCompetition
+ * 18:57:00 7/22/24
+ * OmkarAndLastClassOfMath
  */
-// ./CodeForces/1200/BoatsCompetition.cpp
+// ./CodeForces/1300/OmkarAndLastClassOfMath.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -21,9 +21,21 @@ using namespace __gnu_pbds;
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
 #define pii pair<int, int>
+#define P complex<int>
+#define X real()
+#define Y imag()
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
+
+int is_prime(int n) {
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
 
 void solve() {
     int t;
@@ -31,32 +43,18 @@ void solve() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> a(n);
-        for (int& i: a) cin >> i;
-        sort(a.begin(), a.end());
-        const int mins = 2, maxs = 100;
-        int res = 0;
-        for (int s = mins; s <= maxs; s++) {
-            int tmp = 0;
-            multiset<int> p;
-
-            for (int i = 0; i < n; i++) {
-                auto r = p.find(s - a[i]);
-                bool in = false;
-                if (r != p.end()) {
-                    p.erase(r);
-                    in = true;
-                    tmp++;
-                }
-
-                if (not in)
-                    p.insert(a[i]);
+        if (n % 2) {
+            int p = is_prime(n);
+            if (p == -1) {
+                cout << 1 << ' ' << n - 1 << nl;
+            } else {
+                int x = n / p;
+                cout << x << ' ' << x * (n / x - 1) << nl;
             }
-
-            res = max(res, tmp);
+        } else {
+            n /= 2;
+            cout << n << ' ' << n << nl;
         }
-
-        cout << res << nl;
     }
 }
 
