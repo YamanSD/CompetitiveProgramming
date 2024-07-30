@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 15:50:00 7/27/24
+ * FreeCash
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/1000/FreeCash.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,6 +20,7 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
 #define P complex<int>
 #define X real()
@@ -29,22 +30,17 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
-
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+    int n;
+    cin >> n;
+    map<pii, int> s;
+    pii t;
+    for (int i = 0; i < n; i++) {
+        cin >> t.F >> t.S;
+        s[t]++;
     }
+    int mx = -1;
+    for (auto& p: s) mx = max(mx, p.S);
+    cout << mx << nl;
 }
 
 int32_t main() {

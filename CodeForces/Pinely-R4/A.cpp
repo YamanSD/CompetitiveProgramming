@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 12:30:04 7/29/24
+ * A
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/Pinely-R4/A.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -34,16 +36,14 @@ void solve() {
     while (t--) {
         int n;
         cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
-
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        int a[n];
+        for (int& i: a) cin >> i;
+        if (n == 1) {
+            cout << a[0] << nl;
+            continue;
+        }
+        for (int i = 1; i < n; i += 2) a[i] = 0;
+        cout << *max_element(a, a + n) << nl;
     }
 }
 

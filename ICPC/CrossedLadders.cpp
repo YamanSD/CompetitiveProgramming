@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 19:47:28 7/29/24
+ * CrossedLadders
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./ICPC/CrossedLadders.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -29,22 +31,23 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+    double x, y, c;
+    cin >> x >> y >> c;
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
-    }
+//     w * w = y * y - h1 * h1
+//     w * w = x * x - h0 * h0
+    // x = k * v;
+    // y = k * v1;
+    // h1 = k * h0
+    // y * y - h1 * h1 = x * x - h0 * h0
+    // y * y - k * k * h0 * h0 = x * x - h0 * h0
+
+    // h0 * h0 * (1 - k * k) = x * x - y * y
+    // 2 * w * w = y * y
+    // y * y - h1 * h1 = 0
+    // h1 * h1 = y * y
+    // h1 = sqrt(y * y)
+
 }
 
 int32_t main() {

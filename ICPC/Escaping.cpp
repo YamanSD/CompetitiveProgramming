@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 18:40:40 7/29/24
+ * Escaping
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./ICPC/Escaping.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -29,22 +31,28 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+    int n;
+    cin >> n;
+    vector<pii> ps(n);
+    for (auto& p: ps) cin >> p.F >> p.S;
+    pii t;
+    cin >> t.F >> t.S;
+    vector<bool> net(4);
+    auto all = [&]() {
+        bool f = true;
+        for (auto p: net) f &= p;
+        return f;
+    };
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+    for (auto& p: ps) {
+        if (p.F < t.F and abs(p.S - t.S) <= abs(p.F - t.F)) net[0] = true;
+        if (p.F > t.F and abs(p.S - t.S) <= abs(p.F - t.F)) net[2] = true;
+        if (p.S < t.S and abs(p.S - t.S) >= abs(p.F - t.F)) net[1] = true;
+        if (p.S > t.S and abs(p.S - t.S) >= abs(p.F - t.F)) net[3] = true;
+        if (all()) break;
     }
+
+    if (all()) NO else YES
 }
 
 int32_t main() {

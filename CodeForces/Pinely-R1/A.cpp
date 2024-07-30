@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 17:18:53 7/27/24
+ * A
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/Pinely-R1/A.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,6 +20,7 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
 #define P complex<int>
 #define X real()
@@ -32,18 +33,15 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+        int n, a, b;
+        cin >> n >> a >> b;
+        if (n == a and a == b) {
+            YES
+            continue;
+        }
+        b = n - b;
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        if (a >= b - 1) NO else YES
     }
 }
 

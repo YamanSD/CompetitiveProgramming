@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 18:23:36 7/30/24
+ * D
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/Educ168/D.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -28,22 +30,42 @@ template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
-void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+map<int, vector<int>> t{};
+vector<int> v{};
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+int apply(int n = 0) {
+    if (t.find(n) == t.end()) return v[n];
+
+    int mn = INF;
+    for (int c: t[n]) mn = min(mn, apply(c));
+//    cout << n << ' ' << mn << nl;
+    if (n == 0) {
+        return v[n] + mn;
+    }
+
+    if (mn < v[n]) {
+        return mn;
+    }
+
+    return v[n] + (mn - v[n]) / 2;
+}
+
+void solve() {
+    int T;
+    cin >> T;
+    while (T--) {
+        t.clear(); v.clear();
+        int n, vl;
+        cin >> n;
+        for (int i = 0; i < n; i++) {
+            cin >> vl;
+            v.push_back(vl);
+        }
+        for (int i = 1; i < n; i++) {
+            cin >> vl;
+            t[vl - 1].push_back(i);
+        }
+        cout << apply() << nl;
     }
 }
 

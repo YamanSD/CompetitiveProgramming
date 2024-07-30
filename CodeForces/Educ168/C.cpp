@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 18:02:09 7/30/24
+ * C
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/Educ168/C.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -34,16 +36,34 @@ void solve() {
     while (t--) {
         int n;
         cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+        vector<char> a(n);
+        for (char& c: a) cin >> c;
+        set<int> s, sl;
+        for (int i = 0; i < n; i++) {
+            if (a[i] == ')') {
+                s.insert(i);
+            }
+        }
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        int rbs = 0;
+        for (int i = 0; i < n; i++) {
+            if (a[i] == '(') {
+                sl.insert(-i);
+            } else if (a[i] == '_') {
+                if (not sl.empty()) {
+                    auto p = sl.begin();
+                    int j = -(*p);
+                    rbs += i - j;
+                    sl.erase(-j);
+                } else {
+                    auto p = s.begin();
+                    int j = *p;
+                    rbs += j - i;
+                    s.erase(j);
+                }
+            }
+        }
+        cout << rbs << nl;
     }
 }
 

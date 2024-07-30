@@ -121,7 +121,7 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pthread.h \
-  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Div3-962/E.cpp \
+  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Educ168/D.cpp \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/any \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/array \
@@ -1065,6 +1065,8 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/alloca.h:
 
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Educ168/D.cpp:
+
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stream_iterator.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/ov_tree_map_/info_fn_imps.hpp:
@@ -1237,9 +1239,9 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/alloc_traits.h:
 
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/locale_facets_nonio.h:
-
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/max_size_type.h:
+
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/locale_facets_nonio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h:
 
@@ -1371,17 +1373,11 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/concurrence.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/cerrno:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
-
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/ptr_traits.h:
-
-/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Div3-962/E.cpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/setjmp.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/cc_hash_table_map_/policy_access_fn_imps.hpp:
 
@@ -1418,12 +1414,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/unicode-data.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/setjmp.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/ov_tree_map_/debug_fn_imps.hpp:
 
@@ -1557,6 +1547,14 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
+
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/concurrence.h:
+
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/cerrno:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
+
 /usr/local/Cellar/gcc/14.1.0_1/lib/gcc/current/gcc/x86_64-apple-darwin23/14/include/float.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/resize_policy/hash_load_check_resize_trigger_size_base.hpp:
@@ -1684,6 +1682,8 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/ios_base.h:
+
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/ptr_traits.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stl_vector.h:
 

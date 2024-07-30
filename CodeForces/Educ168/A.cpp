@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 17:22:02 7/30/24
+ * A
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/Educ168/A.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -32,18 +34,24 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+        string a;
+        cin >> a;
+        char ch = 'a';
+        bool done = false;
+        for (int i = 0; i < a.size() - 1; i++) {
+            if (a[i] == a[i + 1]) {
+                while (ch == a[i] or ch == a[i + 1]) ch++;
+                a.insert(a.begin() + i + 1, ch);
+                done = true;
+                break;
+            }
+        }
+        if (not done) {
+            while (ch == a.back()) ch++;
+            a.push_back(ch);
+        }
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        cout << a << nl;
     }
 }
 

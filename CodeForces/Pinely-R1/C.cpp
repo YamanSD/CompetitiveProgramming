@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 18:18:58 7/27/24
+ * C
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/Pinely-R1/C.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -32,18 +34,24 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+        int n; cin >> n;
+        vector<string> g(n);
+        vector<vi> a(n);
+        for (auto& r: g) {
+            cin >> r;
+        }
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        for (int i = 0; i < n; i++) a[i].push_back(i + 1);
+        for (int r = 0; r < n; r++) {
+            for (int c = 0; c < n; c++) {
+                if (g[r][c] == '1') a[c].push_back(r + 1);
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            cout << a[i].size() << ' ';
+            for (auto& c: a[i]) cout << c << ' ';
+            cout << nl;
+        }
     }
 }
 

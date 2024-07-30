@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 13:21:59 7/30/24
+ * TwoMovies
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/1400/TwoMovies.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -29,21 +31,33 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
+    int T;
+    cin >> T;
+    while (T--) {
         int n;
         cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+        int a[n], b[n];
+        for (int& i: a) cin >> i;
+        for (int& i: b) cin >> i;
+        int p = 0, m = 0, x = 0, y = 0;
+        for (int i = 0; i < n; i++) {
+            if (a[i] == 1 and b[i] == 1) p++;
+            else if (a[i] == -1 and b[i] == -1) m++;
+            else if (a[i] > b[i]) x += a[i];
+            else if (a[i] <= b[i]) y += b[i];
+        }
 
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        while (p--) {
+            if (x > y) y++;
+            else x++;
+        }
+
+        while (m--) {
+            if (x > y) x--;
+            else y--;
+        }
+
+        cout << min(x, y) << nl;
     }
 }
 

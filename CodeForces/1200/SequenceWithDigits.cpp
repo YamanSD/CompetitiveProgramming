@@ -1,8 +1,8 @@
 /**
- * 19:27:01 7/22/24
- * MakeItGood
+ * 10:23:45 7/28/24
+ * SequenceWithDigits
  */
-// ./CodeForces/1200/MakeItGood.cpp
+// ./CodeForces/1200/SequenceWithDigits.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -20,7 +20,9 @@ using namespace __gnu_pbds;
 #define S second
 #define INF 1000000000000000000ll
 #define MOD 1000000007ll
+#define EPS 1e-9l
 #define pii pair<int, int>
+#define vi vector<int>
 #define P complex<int>
 #define X real()
 #define Y imag()
@@ -32,18 +34,19 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        int a[n + 1];
-        a[0] = INF;
-        for (int i = 1; i <= n; i++) cin >> a[i];
-
-        int i = n;
-        while (i >= 0 and a[i - 1] >= a[i]) i--;
-        i--;
-        while (i >= 0 and a[i - 1] <= a[i]) i--;
-        i--;
-        cout << max(i, 0ll) << nl;
+        int n, k;
+        cin >> n >> k;
+        for (int i = 1; i < k; i++) {
+            int m = n, mn = INF, mx = -INF;
+            while (m > 0) {
+                mn = min(m % 10, mn);
+                mx = max(m % 10, mx);
+                m /= 10;
+            }
+            if (mn == 0) break;
+            n += mn * mx;
+        }
+        cout << n << nl;
     }
 }
 
