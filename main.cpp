@@ -3,4 +3,4 @@
 void solve();
 int32_t main();
 
-#include "./CodeForces/Educ168/E.cpp"
+#include "./CodeForces/Div2-951/A.cpp"
