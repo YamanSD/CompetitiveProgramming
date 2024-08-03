@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 15:23:52 8/2/24
+ * YetAnotherBrokenKeyboard
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1200/YetAnotherBrokenKeyboard.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -31,23 +31,24 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
-            }
-        }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
+    int n, k;
+    string s;
+    set<char> a;
+    char ch;
+    cin >> n >> k >> s;
+    for (int i = 0; i < k; i++) {
+        cin >> ch;
+        a.insert(ch);
     }
+
+    vector<int> v{0};
+    for (char c: s) {
+        if (a.count(c)) v.back()++;
+        else if (v.back() != 0) v.push_back(0);
+    }
+    int res = 0;
+    for (int i: v) res += (i * (i + 1)) / 2;
+    cout << res << nl;
 }
 
 int32_t main() {

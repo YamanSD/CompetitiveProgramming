@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 17:18:44 8/2/24
+ * Winner
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1500/Winner.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -31,24 +31,36 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
+    int n;
+    cin >> n;
+    map<int, set<string>, greater<>> m;
+    map<string, int, greater<>> u;
+    vector<pair<string, int>> g;
+    string s;
+    int sc;
+    while (n--) {
+        cin >> s >> sc;
+        g.emplace_back(s, sc);
+        m[u[s]].erase(s);
+        u[s] += sc;
+        m[u[s]].insert(s);
+    }
+    int mx = -INF;
+    for (auto& p: u) mx = max(mx, p.S);
+    u.clear();
+    auto& mp{m[mx]};
+    for (auto& p: g) {
+        if (mp.count(p.F)) {
+            u[p.F] += p.S;
+
+            if (u[p.F] >= mx) {
+                cout << p.F << nl;
+                return;
             }
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
     }
 }
+
 
 int32_t main() {
     fast

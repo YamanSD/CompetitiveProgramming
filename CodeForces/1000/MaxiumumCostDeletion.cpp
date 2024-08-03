@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 14:06:26 8/2/24
+ * MaxiumumCostDeletion
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1000/MaxiumumCostDeletion.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -34,19 +34,26 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
+        int n, a, b;
+        string s;
+        cin >> n >> a >> b >> s;
+        if (b < 0) {
+            vector<char> m{s[0]};
+            for (char c: s) {
+                if (m.back() != c) {
+                    m.push_back(c);
+                }
             }
+            int cnt0 = 0, cnt1 = 0;
+            for (char c: m) {
+                if (c == '0') cnt0++;
+                else cnt1++;
+            }
+
+            cout << n * a + b * (min(cnt0, cnt1) + 1) << nl;
+        } else {
+            cout << n * (a + b) << nl;
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
     }
 }
 

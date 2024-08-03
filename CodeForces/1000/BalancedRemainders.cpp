@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 16:15:03 8/2/24
+ * BalancedRemainders
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1000/BalancedRemainders.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -36,17 +36,22 @@ void solve() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
+        int a[n];
+        for (int& i: a) cin >> i;
+        vector<int> c(3, 0);
+        for (int i: a) c[i % 3]++;
+        int v = n / 3, res = 0;
+
+        for (int i = 0; i < 6; i++) {
+            int j = i % 3;
+            if (c[j] > v) {
+                res += c[j] - v;
+                c[(j + 1) % 3] += c[j] - v;
+                c[j] = v;
             }
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
+
+        cout << res << nl;
     }
 }
 

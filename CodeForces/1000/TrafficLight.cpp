@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 15:43:16 8/2/24
+ * TrafficLight
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1000/TrafficLight.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -35,18 +35,26 @@ void solve() {
     cin >> t;
     while (t--) {
         int n;
-        cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
+        char cur;
+        string s;
+        cin >> n >> cur >> s;
+        set<int> g;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == 'g') g.insert(i);
+        }
+        int mx = 0;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == cur) {
+                auto p = g.lower_bound(i);
+                if (p == g.end()) {
+                    p = g.lower_bound(0);
+                    mx = max(mx, *p + n - i);
+                } else {
+                    mx = max(mx, *p - i);
+                }
             }
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
+        cout << mx << nl;
     }
 }
 

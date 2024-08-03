@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 19:20:32 8/2/24
+ * MiddleClass
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1100/MiddleClass.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -34,19 +34,17 @@ void solve() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
-            }
+        int n, x;
+        cin >> n >> x;
+        int a[n];
+        for (int& i: a) cin >> i;
+        sort(a, a + n);
+        int sm = 0, cnt = 0;
+        while (cnt < n and ((double)sm + a[n - 1 - cnt]) / (cnt + 1) >= x) {
+            sm += a[n - 1 - cnt];
+            cnt++;
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
+        cout << cnt << nl;
     }
 }
 

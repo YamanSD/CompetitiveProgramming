@@ -121,7 +121,7 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pthread.h \
-  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Educ168/D.cpp \
+  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Educ168/E.cpp \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/any \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/array \
@@ -877,6 +877,8 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h:
 
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Educ168/E.cpp:
+
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stl_tree.h:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/gp_hash_table_map_/constructor_destructor_fn_imps.hpp:
@@ -926,14 +928,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/info_fn_imps.hpp:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/erase_fn_imps.hpp:
-
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/hash_fn/ranged_probe_fn.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
-
-/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/debug_fn_imps.hpp:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/constructors_destructor_fn_imps.hpp:
 
@@ -1064,8 +1058,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/gp_hash_table_map_/find_fn_imps.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/alloca.h:
-
-/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Educ168/D.cpp:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stream_iterator.h:
 
@@ -1373,12 +1365,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/setjmp.h:
-
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/cc_hash_table_map_/policy_access_fn_imps.hpp:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/atomic:
@@ -1415,6 +1401,12 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/unicode-data.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/setjmp.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
+
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/ov_tree_map_/debug_fn_imps.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/errno.h:
@@ -1437,6 +1429,12 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
+
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/bin_search_tree_/debug_fn_imps.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
+
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/shared_mutex:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/hash_fn/direct_mask_range_hashing_imp.hpp:
@@ -1450,6 +1448,8 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /usr/local/Cellar/gcc/14.1.0_1/lib/gcc/current/gcc/x86_64-apple-darwin23/14/include/xmmintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+/usr/local/Cellar/gcc/14.1.0_1/include/c++/14/ext/pb_ds/detail/hash_fn/ranged_probe_fn.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 

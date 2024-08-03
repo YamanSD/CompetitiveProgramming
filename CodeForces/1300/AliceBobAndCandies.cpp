@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 18:24:55 8/2/24
+ * AliceBobAndCandies
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1300/AliceBobAndCandies.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -36,17 +36,29 @@ void solve() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
+        int v[n];
+        for (int& i: v) cin >> i;
+        int i = 1, j = n - 1, a = v[0], b = 0, m = 1, prev_a = v[0], prev_b = -1;
+        while (i < n and j >= 0 and i <= j) {
+            int cur = 0;
+            if (m % 2) { // Bob
+                while (cur <= prev_a and j >= 0 and i <= j) {
+                    b += v[j];
+                    cur += v[j];
+                    j--;
+                }
+                prev_b = cur;
+            } else { // Alice
+                while (cur <= prev_b and i < n and i <= j) {
+                    a += v[i];
+                    cur += v[i];
+                    i++;
+                }
+                prev_a = cur;
             }
+            m++;
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
+        cout << m << ' ' << a << ' ' << b << nl;
     }
 }
 

@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 17:02:12 8/2/24
+ * JzzhuAndSequences
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1300/JzzhuAndSequences.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -31,23 +31,18 @@ using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistic
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
-            }
-        }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
-        cout << nl;
-    }
+    // f(i) = f(i - 1) + f(i + 1)
+    // f(1) = x, f(2) = y
+    // f(i - 1) = f(i - 2) + f(i)
+    // f(i) = f(i - 1) - f(i - 2)
+    //      = -f(i - 3)
+    //      = f(i - 5) - f(i - 4)
+    //      = f(i - 6)
+    //      = f(i - 7) - f(i - 8)
+    int x, y, n;
+    cin >> x >> y >> n;
+    int a[]{ x, y, y - x, -x, -y, x - y};
+    cout << (a[(n - 1) % 6] % MOD + MOD) % MOD << nl;
 }
 
 int32_t main() {

@@ -1,8 +1,8 @@
 /**
- * 15:13:13 7/30/24
- * IncreasingSequenceWithFixedOR
+ * 14:29:47 8/2/24
+ * SortedAdjacentDifferences
  */
-// ./CodeForces/1300/IncreasingSequenceWithFixedOR.cpp
+// ./CodeForces/1200/SortedAdjacentDifferences.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -36,16 +36,18 @@ void solve() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> a;
-        for (int i = 63; i >= 0; i--) {
-            if ((1ll << i) & n) {
-                int tmp = n ^ (1ll << i);
-                if (tmp) a.push_back(tmp);
-            }
+        int a[n], res[n];
+        for (int& i: a) cin >> i;
+        sort(a, a + n);
+        int l = (n - 1) / 2;
+        int r = l + 1;
+        int i = 0;
+        while (0 <= l and r < n) {
+            res[i++] = a[l--];
+            res[i++] = a[r++];
         }
-        a.push_back(n);
-        cout << a.size() << nl;
-        for (int i: a) cout << i << ' ';
+        if (l == 0) res[n - 1] = a[l];
+        for (int v: res) cout << v << ' ';
         cout << nl;
     }
 }
