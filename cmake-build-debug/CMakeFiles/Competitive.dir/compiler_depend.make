@@ -121,7 +121,7 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/pthread.h \
-  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Div3-486/E.cpp \
+  /Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Div4-806/G.cpp \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/algorithm \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/any \
   /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/array \
@@ -1199,8 +1199,6 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/postypes.h:
 
-/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Div3-486/E.cpp:
-
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/ostream.tcc:
 
 /usr/local/Cellar/gcc/14.1.0_1/include/c++/14/bits/stringfwd.h:
@@ -1584,6 +1582,8 @@ CMakeFiles/Competitive.dir/main.cpp.o: /Users/yamansirajaldeen/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/Users/yamansirajaldeen/Documents/GitHub/CompetitiveProgramming/CodeForces/Div4-806/G.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
