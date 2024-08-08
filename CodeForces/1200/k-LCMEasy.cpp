@@ -1,8 +1,8 @@
 /**
- * 19:47:28 7/29/24
- * CrossedLadders
+ * 15:38:21 8/8/24
+ * k-LCMEasy
  */
-// ./ICPC/CrossedLadders.cpp
+// ./CodeForces/1200/k-LCMEasy.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -26,31 +26,36 @@ using namespace __gnu_pbds;
 #define P complex<int>
 #define X real()
 #define Y imag()
+#define LT int T; cin >> T; while (T--)
+template<typename T>
+using vector2d = vector<vector<T>>;
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    double x, y, c;
-    cin >> x >> y >> c;
+    int n, k;
+    cin >> n >> k;
 
-//     w * w = y * y - h1 * h1
-//     w * w = x * x - h0 * h0
-    // x = k * v;
-    // y = k * v1;
-    // h1 = k * h0
-    // y * y - h1 * h1 = x * x - h0 * h0
-    // y * y - k * k * h0 * h0 = x * x - h0 * h0
-
-    // h0 * h0 * (1 - k * k) = x * x - y * y
-    // 2 * w * w = y * y
-    // y * y - h1 * h1 = 0
-    // h1 * h1 = y * y
-    // h1 = sqrt(y * y)
-
+    while (k > 3) {
+        n--, k--;
+        cout << 1 << ' ';
+    }
+    int a = -1, b = -1, c = -1;
+    if (n % 2) a = n / 2, b = n / 2, c = 1;
+    else {
+        for (int p2 = 1; p2 <= n; p2 <<= 1) {
+            int rem = n - p2;
+            if (rem > 0 and rem % 2 == 0) {
+                int x = p2, y = rem / 2, z = rem / 2;
+                if (2 * lcm(x, lcm(y, z)) <= n) a = x, b = y, c = z;
+            }
+        }
+    }
+    cout << a << ' ' << b << ' ' << c << nl;
 }
 
 int32_t main() {
     fast
-    solve();
+    LT solve();
 }

@@ -1,8 +1,8 @@
 /**
- * 19:32:25 7/29/24
- * AbbeyCourtyard
+ * 19:20:57 8/7/24
+ * BearAndBigBrother
  */
-// ./ICPC/AbbeyCourtyard.cpp
+// ./CodeForces/800/BearAndBigBrother.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -26,15 +26,23 @@ using namespace __gnu_pbds;
 #define P complex<int>
 #define X real()
 #define Y imag()
+#define LT int T; cin >> T; while (T--)
+template<typename T>
+using vector2d = vector<vector<T>>;
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int n;
-    cin >> n;
-    double a = sqrt(n);
-    printf("%.8Lf\n", 4 * a);
+    double a, b;
+    cin >> a >> b;
+    int cnt = 0;
+    while (a <= b) {
+        a *= 3;
+        b *= 2;
+        cnt++;
+    }
+    cout << cnt << nl;
 }
 
 int32_t main() {

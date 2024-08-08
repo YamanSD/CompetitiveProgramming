@@ -1,8 +1,8 @@
 /**
- * 19:36:18 7/29/24
- * Triangles
+ * 12:42:38 8/6/24
+ * B
  */
-// ./ICPC/Triangles.cpp
+// ./CodeForces/Div4-859/B.cpp
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -26,26 +26,30 @@ using namespace __gnu_pbds;
 #define P complex<int>
 #define X real()
 #define Y imag()
+#define LT int T; cin >> T; while (T--)
+template<typename T>
+using vector2d = vector<vector<T>>;
 template<typename T>
 using ordered_set = tree<T, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 using indexed_set = tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update>;
 
 void solve() {
-    int a, b, c;
-    vector<string> r;
-    while (true) {
-        cin >> a >> b >> c;
-        int d = max(a, max(b, c));
-        if (a == 0 and b == 0 and c == 0) break;
-        if (a + b + c - d <= d) r.emplace_back("Invalid");
-        else if (a == b and b == c) r.emplace_back("Equilateral");
-        else if (a == b or a == c or b == c) r.emplace_back("Isosceles");
-        else r.emplace_back("Scalene");
+    int n;
+    cin >> n;
+    int a[n];
+    for (int& i: a) cin >> i;
+    int osm = 0, esm = 0;
+    for (int i: a) {
+        if (i % 2) {
+            osm += i;
+        } else {
+            esm += i;
+        }
     }
-    for (auto& s: r) cout << s << nl;
+    if (osm >= esm) NO else YES
 }
 
 int32_t main() {
     fast
-    solve();
+    LT solve();
 }
